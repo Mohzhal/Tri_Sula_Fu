@@ -1,0 +1,20 @@
+.showin {
+    animation: animate 0.4s ease;
+    transition: all 0.3s ease;
+}
+
+.hidin {
+    display: none !important;
+    transition: all 0.3s ease;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .ham{
+        @apply font-semibold text-[8px] sm:p-2 sm:text-sm  text-sky-700 dark:text-sky-700 hover:bg-teal-400 hover:shadow-lg dark:hover:text-white hover:text-white hover:shadow-teal-300 hover:p-1 hover:rotate-12 hover:rounded-lg text-center lg:text-lg 
+      }
+    .bayangan{
+      @apply bg-white   hover:scale-110 hover:shadow-lg hover:shadow-sky-400 rounded-full p-1
+    }
+    .zal{
+      @apply flex  sm:left-1/2   absolute sm:basis-1/2 sm:w-[300px] md:w-[400px] lg:w-[500px]   rounded-full shadow-xl shadow-black   sm:top-2   flex-col sm:flex-row sm:justify-center sm:-translate-x-1/2  justify-center  top-1/2  translate-y-10 sm:translate-y-0  sm:grid-flow-col sm:justify-items-center
+    }
+    .slice {
+      @apply pl-2 pt-1 sm:hidden cursor-pointer 
+    }
+    .bulat{
+      @apply w-32 h-32  rounded-full bg-teal-400 
+    }
+    .Rizal{
+      @apply absolute  left-2 -top-12 overflow-hidden  h-48 w-48 md:w-56 md:h-56 lg:w-72 lg:h-72  md:-top-16
+    }
+    .top {
+      @apply border   rounded-xl shadow-md shadow-oren  overflow-auto
+    }
+    .cs{
+      @apply border   rounded-xl shadow-md shadow-oren  overflow-auto
+    }
+    .cart {
+      @apply bg-oren p-1 w-20 justify-center flex h-7 rounded-md hover:scale-110 hover:bg-orange-500 active:scale-95 cursor-pointer gap-2
+     hover:shadow-md hover:shadow-orange-500
+    }
+    .chart{
+      @apply w-24 h-7 p-1 flex justify-center rounded-md bg-teal-500 hover:scale-110 hover:bg-teal-700 active:scale-95 cursor-pointer
+     
+    }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0); /* Posisi awal dan akhir */
+  }
+  50% {
+    transform: translateY(-10px); /* Posisi di tengah */
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite; /* Ubah durasi dan jenis easing sesuai kebutuhan Anda */
+}
+
+@keyframes floats {
+  0%, 100% {
+    transform: translateY(-10px); /* Posisi awal dan akhir */
+  }
+  50% {
+    transform: translateY(0); /* Posisi di tengah */
+  }
+}
+
+.animate-floats {
+  animation: float 4s ease-in-out infinite; /* Ubah durasi dan jenis easing sesuai kebutuhan Anda */
+}

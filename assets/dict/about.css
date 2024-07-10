@@ -1,0 +1,7 @@
+#About {
+    position: fixed; /* atau absolute, sesuai kebutuhan */
+    top: 50px; /* atau nilai yang sesuai dengan kebutuhan Anda */
+    background-color: #2D3748; /* warna latar belakang yang sesuai dengan mode malam */
+    /* tambahkan properti lain sesuai kebutuhan */
+}
+

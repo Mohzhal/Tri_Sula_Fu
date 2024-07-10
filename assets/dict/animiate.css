@@ -1,0 +1,49 @@
+/* Gaya untuk animasi bounce yang lebih lambat */
+@keyframes bounce-slow {
+    0%, 80%,90%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+   
+}
+
+/* Menyesuaikan animasi bounce untuk tampilan yang lebih halus */
+.an‌​imate-bounce-slow {
+    animation: bounce-slow 2s infinite;
+}
+    
+
+
+
+
+        #toggle:checked + label div.toggle-circle{
+            transform: translateX(20px) ;
+        }
+
+        /* Animasi transisi untuk gambar */
+        #mainImage {
+            transition: opacity 0.1s ease-in-out;
+            width: 100%; /* Menetapkan lebar gambar ke 100% */
+            height: 100%; /* Mengatur tinggi agar sesuai dengan aspek rasio */
+        }
+
+        /* Mengatur kecerahan gambar dua.png saat night.jpg ditampilkan */
+        #Home.night #dua {
+            filter: brightness(0.2); /* Sesuaikan dengan tingkat kegelapan yang diinginkan */
+        }
+
+
+  /* Style untuk bintang */
+  .star {
+    font-size: 2rem; /* Ukuran font untuk bintang */
+    cursor: pointer; /* Ubah cursor menjadi pointer saat mouse berada di atas bintang */
+}
+
+/* Kelas untuk menandai bintang yang dipilih menjadi kuning */
+.star.selected {
+    color: #facc15; /* Warna kuning */
+}
+
+
